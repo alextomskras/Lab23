@@ -32,81 +32,81 @@
             android:id="@+id/outer_layout"
             android:layout_width="match_parent"
             android:layout_height="fill_parent"
-            app:constraint_referenced_ids="red,orange,yellow,green,azure,blue,violet" />
+            app:constraint_referenced_ids="white1,red,white2,orange,white3,yellow,white4,green,white5,azure,white6,blue,white7,violet,white8" />
 
         <View
-
-            android:layout_width="50dp"
+            android:id="@+id/white1"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/white"
             android:layout_height="match_parent" />
         <View
             android:id="@+id/red"
-            android:layout_width="50dp"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/red"
             android:layout_height="match_parent" />
         <View
-
-            android:layout_width="50dp"
+            android:id="@+id/white2"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/white"
             android:layout_height="match_parent" />
         <View
             android:id="@+id/orange"
-            android:layout_width="50dp"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/orange"
             android:layout_height="match_parent" />
         <View
-
-            android:layout_width="50dp"
+            android:id="@+id/white3"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/white"
             android:layout_height="match_parent" />
         <View
             android:id="@+id/yellow"
-            android:layout_width="50dp"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/yellow"
             android:layout_height="match_parent" />
         <View
-
-            android:layout_width="50dp"
+            android:id="@+id/white4"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/white"
             android:layout_height="match_parent" />
         <View
             android:id="@+id/green"
-            android:layout_width="50dp"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/green"
             android:layout_height="match_parent" />
         <View
-
-            android:layout_width="50dp"
+            android:id="@+id/white5"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/white"
             android:layout_height="match_parent" />
         <View
             android:id="@+id/azure"
-            android:layout_width="50dp"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/azure"
             android:layout_height="match_parent" />
         <View
-
-            android:layout_width="50dp"
+            android:id="@+id/white6"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/white"
             android:layout_height="match_parent" />
         <View
             android:id="@+id/blue"
-            android:layout_width="50dp"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/blue"
             android:layout_height="match_parent" />
         <View
-
-            android:layout_width="50dp"
+            android:id="@+id/white7"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/white"
             android:layout_height="match_parent" />
         <View
             android:id="@+id/violet"
-            android:layout_width="50dp"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/violet"
             android:layout_height="match_parent" />
         <View
-
-            android:layout_width="50dp"
+            android:id="@+id/white8"
+            android:layout_width="@dimen/landscape_width"
             android:background="@color/white"
             android:layout_height="match_parent"
             tools:ignore="DuplicateIds" />
