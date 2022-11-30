@@ -23,16 +23,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:id="@+id/outer_layout"
+    android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@+id/main_text" >
 
-        <androidx.constraintlayout.widget.Group
-            android:id="@+id/outer_layout"
-            android:layout_width="match_parent"
-            android:layout_height="fill_parent"
-            app:constraint_referenced_ids="white1,red,white2,orange,white3,yellow,white4,green,white5,azure,white6,blue,white7,violet,white8" />
 
         <View
             android:id="@+id/white1"
